@@ -116,8 +116,9 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  spec.framework  = "WeexSDK.framework"
+  # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.vendored_frameworks = "WeexSDK.framework"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
